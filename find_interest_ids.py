@@ -9,7 +9,7 @@ from facebookads.api import FacebookAdsApi
 from facebookads.exceptions import FacebookError
 from unicodedata import normalize
 
-import json, os, psycopg2, sys
+import json, os, sys
 import time, gzip
 
 # https://developers.facebook.com/docs/marketing-api/targeting-search/
@@ -138,7 +138,7 @@ def testSuggestions(api):
 ######################## searching for interests for a given text
 ####################################################################################   
 def testInterestSearch(api): 
-    list_of_interests_to_search = ["Ciro Gomes", "Feijoada", "Politics"]
+    list_of_interests_to_search = ["Whindersson"]
 #     list_of_interests_to_search = ["Feijoada"]
     for interest in list_of_interests_to_search:
         print '**********  SEARCHING FOR %s  **********'  % interest       

@@ -27,7 +27,7 @@ dictionaries ={
 }
 
 
-expats_all_facebook={
+expats_all_facebook = {
     'expats_india': [{'id':'6016916298983', 'name':'Expats (India)'}],
     'expats_kenya': [{'id':'6018796980983', 'name':'Expats (Kenya)'}],
     'expats_nigeria': [{'id':'6018797004183', 'name':'Expats (Nigeria)'}],

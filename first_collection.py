@@ -44,7 +44,6 @@ def make_request(account, targeting_spec):
     api_params = {
         'targeting_spec': targeting_spec
     }
-    
     reach_estimate = account.get_reach_estimate(params=api_params)
     number = reach_estimate[0]['users']
     return number

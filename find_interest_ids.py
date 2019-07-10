@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-__author__ = "Filipe Ribeiro"
+__author__ = "Carlos Abreu"
 
 from facebookads.adobjects.adaccount import AdAccount
 from facebookads.adobjects.adset import AdSet

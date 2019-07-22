@@ -27,3 +27,5 @@ API_LINK = f"https://api.census.gov/data/2018/pep/population?get=POP,GEONAME&for
 
 response = urllib3.PoolManager().request("GET", API_LINK)
 response = pd.DataFrame(json.loads(response.data)).to_csv(r'population.csv', index = None, header = False, sep=';', encoding='utf-8')
+
+print(response)
